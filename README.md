@@ -7,16 +7,18 @@ The site is a Album Review Blog mostly about Metal/Hard music, but with occasion
 ## Compliance
 1. W3 Validator  
 ![](images/w3validator.png)
+2. WebAIM
+![](images/webaim%20validation.png)
 2. Responsive  
 - Mobile:
-![](images/mobile.png)
+![](videos/mobile.mp4)
 - Desktop: 
-![](images/desktop.png)
+![](videos/desktop.mp4)
 3. Well Styled  
 The site uses the Semantic UI CSS with some modifications. See [CSS File](css/styles.css).
 
 ## Extras
-1. Content is generated dynamically from a JavaScript Object. See [JavaScript Code](/js/javascript.js)
+1. Content is generated dynamically from a JavaScript array of objects. See [JavaScript Code](/js/javascript.js)
 2. Embedded Song from the Album through Youtube
 3. Popup the Embedded Song in a Lightbox-esque view  
 ![](images/embedded_youtube_popup.png)
