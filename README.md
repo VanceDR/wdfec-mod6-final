@@ -10,10 +10,8 @@ The site is a Album Review Blog mostly about Metal/Hard music, but with occasion
 2. WebAIM
 ![](images/webaim%20validation.png)
 2. Responsive  
-- Mobile:
-![](videos/mobile.mp4)
-- Desktop: 
-![](videos/desktop.mp4)
+- Mobile: [Video Demo](videos/mobile.mp4)
+- Desktop: [Video Demo](videos/desktop.mp4)
 3. Well Styled  
 The site uses the Semantic UI CSS with some modifications. See [CSS File](css/styles.css).
 
