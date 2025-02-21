@@ -1,5 +1,5 @@
 :root {
-  font-size: 18px;
+  font-size: 16px;
 }
 header {
   position: sticky;
@@ -23,6 +23,7 @@ nav ul {
 }
 
 main section {
+  font-size: 1rem;
   scroll-margin-top: 54px;
   height: calc(100% - 2em);
   display: grid;
@@ -39,6 +40,12 @@ main section:first-of-type {
   align-content: center;
 }
 
+section h1 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+}
+
+
 .text-container {
   max-width: 80ch;
   margin: 0 auto;
@@ -52,7 +59,9 @@ main section ul {
 
 .ui.cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(60ch, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(40ch, 100%), 1fr));
+  /* max-width: calc(100% - 12em); */
+  margin: 0 auto;
   gap: 1em;
   justify-items: center;
   align-items: start;
@@ -113,3 +122,4 @@ dialog.ui.raised.segment {
 dialog iframe {
   height: 70dvh;
 }
+
