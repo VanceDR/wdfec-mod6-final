@@ -195,7 +195,7 @@ function hideDropdown() {
 
 function createCard(album) {
     return `
-    <div class="card" tabindex="0">
+    <li class="card" tabindex="0">
         <div class="content items">
             <div class="card-top item">
                 <div class="card-image image">
@@ -218,7 +218,7 @@ function createCard(album) {
                 </div>
             </details>
         </div>
-    </div>
+    </li>
     `
 }
 
