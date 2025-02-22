@@ -1,6 +1,6 @@
 # wdfec-mod6-final
 Web Design for Everybody Capstone - Module 6 - Final Project
-
+> [https://vancedr.github.io/wdfec-mod6-final/](https://vancedr.github.io/wdfec-mod6-final/)
 # About
 The site is a Album Review Blog mostly about Metal/Hard music, but with occasional other genres. This site is made using the [Semantic UI Framework](https://semantic-ui.com/).
 
