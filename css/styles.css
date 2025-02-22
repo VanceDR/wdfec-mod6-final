@@ -35,8 +35,17 @@ main section {
 }
 
 main section:first-of-type {
-  background: #fafafa;
+  background: hsl(40, 30%, 95%);
   height: 100dvh;
+  align-content: center;
+}
+
+main section:nth-child(3) {
+  background: hsl(220, 50%, 95%);
+}
+
+main section:nth-child(4) {
+  background: hsl(120, 50%, 95%);
   align-content: center;
 }
 
