@@ -283,7 +283,7 @@ function init() {
     let menu = document.querySelector('ul.menu');
     // Add event listener to the menu anchors
     menu.querySelectorAll('a').forEach(a => a.addEventListener('click', (e) => {
-        if (e.target.id == "darkModeBtn") return
+        if (e.currentTarget.id == "darkModeBtn") return
         // Remove the active class from anchors with active class
         e.target.parentElement.parentElement.querySelectorAll('a.active').forEach(a => a.classList.remove('active'));
         // Add the active class to the clicked anchor
